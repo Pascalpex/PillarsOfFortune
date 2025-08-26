@@ -1,0 +1,14 @@
+name: PillarsOfFortune
+version: '1.0'
+author: Pascalpex
+prefix: PillarsOfFortune
+main: de.pascalpex.pof.PillarsOfFortune
+description: The PillarsOfFortune minigame
+api-version: '1.21.11'
+bootstrapper: de.pascalpex.pof.paper.PillarsOfFortuneBootstrapper
+loader: de.pascalpex.pof.paper.PillarsOfFortuneLoader
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: false
